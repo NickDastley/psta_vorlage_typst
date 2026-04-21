@@ -1,0 +1,8 @@
+# Typst build outputs
+*.pdf
+.typst/
+**/.typst/
+
+# Editor and OS clutter
+.DS_Store
+Thumbs.db
