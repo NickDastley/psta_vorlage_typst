@@ -13,7 +13,7 @@
 #let studies = "Bachelor Künstliche Intelligenz"
 #let faculty = "Angewandte Informatik"
 
-#set page("a4", numbering: "i")
+#set page("a4", numbering: "1")
 #set text(font: "Libertinus Serif", lang: "de", size: 11pt)
 #show heading: set block(above: 1.4em, below: 1em)
 
@@ -87,14 +87,15 @@ Ort, Datum #h(1fr) Unterschrift
       name: student,
       department: studies,
       organization: faculty,
-      location: [Karlsruhe, Germany],
-      email: "nico.dilger@example.com"
+      location: [Deggendorf, Germany],
+      email: "nico.dilger@stud.th-deg.de"
     ),
   ),
   index-terms: ("Scientific writing", "Typesetting", "Document creation", "Syntax"),
   bibliography: bibliography("refs.bib"),
   figure-supplement: [Fig.],
 )
+
 
 = Introduction
 Scientific writing is a crucial part of the research process, allowing researchers to share their findings with the wider scientific community. However, the process of typesetting scientific documents can often be a frustrating and time-consuming affair, particularly when using outdated tools such as LaTeX. Despite being over 30 years old, it remains a popular choice for scientific writing due to its power and flexibility. However, it also comes with a steep learning curve, complex syntax, and long compile times, leading to frustration and despair for many researchers @netwok2020 @netwok2022.
